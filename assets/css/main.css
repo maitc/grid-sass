@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto; }
+
+.templateRow, .row:before, .row:after {
+  content: " ";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left; }
+
+.col-1 {
+  width: percetange(0.0833333333); }
+
+.col-2 {
+  width: percetange(0.1666666667); }
+
+.col-3 {
+  width: percetange(0.25); }
+
+.col-4 {
+  width: percetange(0.3333333333); }
+
+.col-5 {
+  width: percetange(0.4166666667); }
+
+.col-6 {
+  width: percetange(0.5); }
+
+.col-7 {
+  width: percetange(0.5833333333); }
+
+.col-8 {
+  width: percetange(0.6666666667); }
+
+.col-9 {
+  width: percetange(0.75); }
+
+.col-10 {
+  width: percetange(0.8333333333); }
+
+.col-11 {
+  width: percetange(0.9166666667); }
+
+.col-12 {
+  width: percetange(1); }
+
+/*# sourceMappingURL=main.css.map */
